@@ -1,0 +1,45 @@
+.html, body
+{
+	background:#1a75bb;
+	font:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0 auto;
+	color:#FFFFFF;
+}
+.text-login
+{
+	background:#3282bf; 
+	border-radius:5px; 
+	font-size:16px; 
+	padding:10px;
+}
+.singup-btn
+{
+	position: fixed;
+	bottom: 0px;
+	width:100%;
+}
+.page-cover
+{
+	padding-right: 20px; padding-left:20px;
+}
+.singup-btn-style
+{
+	background:#3d94cf; height:50px; padding-top:15px; font-size:24px;
+}
+.singup-btn-style:hover
+{
+	background:#58aee9; height:50px; padding-top:15px; font-size:24px;
+}
+.singup-btn-style a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+		.top-hadding{ width:100%; color:#FFF; font-size:18px;}
+		.top-hadding-text{background:#1a75bb; height:50px; margin-top: -10px; text-align:center;}
+		.footer-btm{position:fixed; bottom:0px;width:100%; color:#FFF;}
+		.footer-icon{background:#1b75ba; height:50px;}
+		.footer-icon-set{padding-top:15px;}
+		.footer-icon-set span{ padding-right:20px;}

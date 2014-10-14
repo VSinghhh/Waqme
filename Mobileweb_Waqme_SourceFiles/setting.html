@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Profile</title>
+		<title>Login Page</title>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.loading-indicator.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link type="text/css" rel="stylesheet" href="css/jquery.loading-indicator.css" />
+	<link href="css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	
+	<script src="js/bootstrap.js" type="text/javascript"></script>
+	<script>
+			$(function() {
+				var homeLoader = $('body').loadingIndicator({
+					useImage: false,
+				}).data("loadingIndicator");
+				
+				setTimeout(function() {
+					homeLoader.hide();
+				}, 1000);
+				
+			});
+		</script>
+        <style>
+		.body{background:#FFF; margin:0px; color:#000;}
+		</style>
+	</head>
+	<body class="body">
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" class="top-hadding">
+    	<div class="top-hadding-text">
+        <div>&nbsp;</div>
+        	Setting
+    	</div>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+    	<div class="row-fluid">
+        	<div class="span12" style="padding:20px 30px 0px 30px; font-size:14px; line-height:35px;" align="left">
+            <div><span class="badge">1</span> Allow push notifcation</div>
+            <div><span class="badge">2</span> Set Password</div>
+            <div><input type="text"  width="20%" > &nbsp; <input type="button" value="Reset" class="btn-primary"</div>
+            <div><span class="badge">3</span> Twitter/<a href="#">yourlink</a></div>
+            <div><input type="text" ></div>
+            <div><span class="badge">4</span> Facebook/<a href="#">yourlink</a></div>
+            <div><input type="text" ></div>
+            <div><span class="badge">5</span> Linkedin/<a href="#">yourlink</a></div>
+            <div><input type="text" ></div>
+            <div><span class="badge">6</span> Sound recording on the way</div>
+            <div><span class="badge">7</span> Emergancy Contact</div>
+            <div><input type="text" ></div>
+            <div align="left" style="color:#0e76bc;">Add other contact</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div align="center"><a href="#"><img src="img/save.jpg"  alt=""/></a></div>
+          </div>
+        	
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td valign="bottom" class="footer-btm">
+    	<div  class="footer-icon" align="center">
+        	<div class="footer-icon-set">
+            	<span><a href="myprofile.html"><img src="img/user-icon-hover.jpg"  alt=""/></a></span>
+                <span><a href="waqmebuddy.html"><img src="img/map.jpg"  alt=""/></a></span>
+                <span><a href="setting.html"><img src="img/sting.jpg"  alt=""/></a></span>
+            </div>
+        </div>
+    </td>
+  </tr>
+</table>
+	</body>
+</html>
